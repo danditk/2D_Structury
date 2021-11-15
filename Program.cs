@@ -10,14 +10,22 @@ namespace _2D_Structury
     {
         static void Main(string[] args)
         {
-            Point2D point2D;
-            point2D.x = 5;
-            point2D.y = 10;
+            Point2D point1;
+            point1.x = 5;
+            point1.y = 10;
+            Point2D point2;
+            //point2.x = 2;
+            //point2.y = 4;
 
-            Console.WriteLine(point2D.x);
-            Console.WriteLine(point2D.y);
+            point2 = point1;
+            point2.x = 7;
+
+            Console.WriteLine(point1.x);
+            Console.WriteLine(point1.y);
+            Console.WriteLine(point1.DistansFromCenter());
 
             Console.ReadKey();
         }
+        
     }
 }

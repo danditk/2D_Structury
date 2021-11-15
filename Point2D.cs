@@ -8,6 +8,13 @@ namespace _2D_Structury
 {
     struct Point2D
     {
+        public Point2D(int x, int y) // structures can have constructors, but only with initial parameters!
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+
         //public const int x = 5;
 
         public int x;
