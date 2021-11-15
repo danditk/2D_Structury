@@ -8,6 +8,7 @@ namespace _2D_Structury
 {
     struct Point2D
     {
-        
+        public const int x = 5;
+        public int y;
     }
 }
