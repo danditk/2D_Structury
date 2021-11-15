@@ -28,6 +28,7 @@ namespace _2D_Structury
             Console.WriteLine();
             Console.WriteLine(point3.x);
             Console.WriteLine(point3.y);
+            Console.WriteLine(point3.DistansFromCenter());
 
             Console.ReadKey();
         }
