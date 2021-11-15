@@ -8,6 +8,11 @@ namespace _2D_Structury
 {
     struct Point2D
     {
+        public static Point2D operator +(Point2D a, Point2D b)
+        {
+            return new Point2D(a.x + b.x, a.y + b.y);
+        }
+
         public Point2D(int x, int y) // structures can have constructors, but only with initial parameters!
         {
             this.x = x;
